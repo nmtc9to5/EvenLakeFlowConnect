@@ -1,0 +1,5 @@
+variables:
+  bundle_instance_name:
+    default: "bundle-1"
+  nombre_job:
+    default: "Job_1"
