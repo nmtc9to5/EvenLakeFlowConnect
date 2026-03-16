@@ -1,0 +1,12 @@
+resources:
+  jobs:
+    Notebook_job:
+      name: "Job_${var.nombre_job}"
+      tasks:
+        - task_key: Notebook_job
+          notebook_task:
+            notebook_path: /Workspace/Users/nmtc9to5@gmail.com/Notebooks/my_second_notebook
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
